@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Universe
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Console.WriteLine("The Universe Is Born");
+
+            new World().Create();
+
+            Console.ReadLine();
         }
     }
 }
