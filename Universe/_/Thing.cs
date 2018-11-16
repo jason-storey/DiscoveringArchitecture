@@ -1,4 +1,5 @@
 ﻿using System;
+using Universe.__;
 
 namespace Universe
 {
@@ -17,10 +18,10 @@ namespace Universe
         public void Act(string action) => 
             Act(action, ConsoleColor.DarkCyan);
 
-        public void Act(string action,ConsoleColor color,int extraPadding = 8)
+        public void Act(string action,ConsoleColor color,int extraPadding = 14)
         {
-            Write(Name.PadLeft(extraPadding), color);
-            WriteLine($" - {action}".PadLeft(Name.Length+ extraPadding),ConsoleColor.White);
+            Write(Name.PadBoth(extraPadding), color);
+            WriteLine($" - {action}",ConsoleColor.White);
         }
 
         public override string ToString()

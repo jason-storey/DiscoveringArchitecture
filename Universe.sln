@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Universe", "Universe\Universe.csproj", "{2C02C7AA-30F5-40A1-82A5-CD9DCF51D1F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompletedSystems", "CompletedSystems", "{174C9710-5CF0-459F-8A7F-15A15D44228B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sys.Eating", "Sys.Eating\Sys.Eating.csproj", "{DEDCD6D3-519A-4F35-9566-F54680E08BCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{2C02C7AA-30F5-40A1-82A5-CD9DCF51D1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C02C7AA-30F5-40A1-82A5-CD9DCF51D1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C02C7AA-30F5-40A1-82A5-CD9DCF51D1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDCD6D3-519A-4F35-9566-F54680E08BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDCD6D3-519A-4F35-9566-F54680E08BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDCD6D3-519A-4F35-9566-F54680E08BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDCD6D3-519A-4F35-9566-F54680E08BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEDCD6D3-519A-4F35-9566-F54680E08BCE} = {174C9710-5CF0-459F-8A7F-15A15D44228B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31A2130F-F7A0-41F3-8ACB-2B8DE9DDB638}

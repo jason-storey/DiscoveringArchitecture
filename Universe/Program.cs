@@ -6,8 +6,6 @@ namespace Universe
     {
         static void Main()
         {
-            Console.WriteLine("The Universe Is Born");
-
             new World().Create();
 
             Console.ReadLine();

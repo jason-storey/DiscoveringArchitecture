@@ -19,6 +19,6 @@ namespace Universe
 
         public string Dimension => NameWithDimension.Remove(NameWithDimension.Length-Type.Length);
 
-        string NameWithDimension => GetType().FullName.Substring("Universe.Examples.".Length);
+        string NameWithDimension => GetType().FullName.Substring("Universe.Days.".Length);
     }
 }
