@@ -1,6 +1,6 @@
 ﻿namespace Sys.Eating
 {
-    class Kitchen
+    public class Kitchen
     {
         public Kitchen(Recipe breakfast,Recipe lunch)
         {

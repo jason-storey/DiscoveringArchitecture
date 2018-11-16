@@ -1,6 +1,6 @@
 ﻿namespace Sys.Eating
 {
-    interface Recipe
+    public interface Recipe
     {
         Meal Create();
     }

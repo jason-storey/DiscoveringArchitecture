@@ -1,5 +1,9 @@
 ﻿
 namespace Sys.Eating
 {
-    public class Food { }
+    public interface Food
+    {
+        string Type { get; }
+        string Name { get; }
+    }
 }

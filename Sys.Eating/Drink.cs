@@ -1,4 +1,7 @@
 ﻿namespace Sys.Eating
 {
-    public class Drink { }
+    public interface Drink
+    {
+        string Name { get; }
+    }
 }

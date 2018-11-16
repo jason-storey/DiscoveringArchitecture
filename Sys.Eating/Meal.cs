@@ -2,7 +2,7 @@
 
 namespace Sys.Eating
 {
-    class Meal
+    public class Meal
     {
        List<Food> Food = new List<Food>();
        List<Drink> Drinks = new List<Drink>();

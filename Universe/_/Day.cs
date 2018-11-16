@@ -6,10 +6,19 @@ namespace Universe
     {
         void Create(int index);
         string Dimension { get; }
+        string Topic { get; }
     }
 
     abstract class TheDay : Thing,IDay
     {
+        protected TheDay()
+        {
+            var fullnamespace = GetType().FullName; //Universe.Days.Eating.B
+            var parts = fullnamespace.Split('.');
+            Topic = parts[2];
+            Dimension = parts[3];
+        }
+
         public void Create(int index)
         {
             WriteLine("***************", ConsoleColor.Black);
@@ -17,8 +26,8 @@ namespace Universe
             WriteLine("***************",ConsoleColor.DarkGray);
         }
 
-        public string Dimension => NameWithDimension.Remove(NameWithDimension.Length-Type.Length);
-
-        string NameWithDimension => GetType().FullName.Substring("Universe.Days.".Length);
+        public string Dimension { get; }
+        public string Topic { get; }
+        
     }
 }
