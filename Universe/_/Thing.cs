@@ -23,14 +23,10 @@ namespace Universe
             WriteLine($" - {action}".PadLeft(Name.Length+ extraPadding),ConsoleColor.White);
         }
 
-
         public override string ToString()
         {
             return Type.Equals(Name, StringComparison.OrdinalIgnoreCase) ? Name : $"{Type} {Name}";
         }
-
-        public void Write(object obj) =>
-            Console.WriteLine(obj);
 
         public void Write(object obj,ConsoleColor color)
         {

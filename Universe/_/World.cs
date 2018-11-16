@@ -11,9 +11,7 @@ namespace Universe
         {
             var days = GetAllTheDays();
             for (int i = days.Count - 1; i >= 0; i--)
-            {
                 Start(days[i],i+1);
-            }
         }
 
         List<IDay> GetAllTheDays()

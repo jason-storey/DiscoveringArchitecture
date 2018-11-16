@@ -12,7 +12,6 @@ namespace Universe
     {
         public void Create(int index)
         {
-            //Name = NameWithDimension;
             WriteLine("***************", ConsoleColor.Black);
             Act(index.ToString(),ConsoleColor.DarkGreen,0);
             WriteLine("***************",ConsoleColor.DarkGray);
